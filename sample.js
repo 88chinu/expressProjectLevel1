@@ -1,13 +1,14 @@
-const express = require("express")
+// const express = require("express")
+import express from 'express'
 const app = express()
+import bodyParser from 'body-parser'
+import userRouter from './router/user.js'
+
 const port = 5000
-const bodyParser = require("body-parser")
 
 app.get("/", (req, res) =>{
     res.send("hello world")
 })
-
-app.use(bodyParser.json())
 
 app.get("/api",(req,res) =>
 { 
@@ -17,10 +18,10 @@ app.get("/api",(req,res) =>
 })
 })
 
+app.use(bodyParser.json());
+app.use('/users',userRouter);
 
 app.listen(port, () =>
     {
-    console.log(`my application is ${port}`)
-}
-)
-
+    console.log(`Server started on port ${port}`);
+})
