@@ -1,7 +1,7 @@
 # sampleExpressProject
 
 ## Description
-This is an Express.js application designed for basic API development. It features a simple in-memory user management system with CRUD operations.
+- This is an Express.js application designed for basic API development. It features a simple in-memory user management system with CRUD operations.
 
 ## Features
 - Home route that returns "hello world".
@@ -29,8 +29,8 @@ This is an Express.js application designed for basic API development. It feature
       npm start
       
 ## Usage
-Access the home route at http://localhost:5000/.
-Access the API route at http://localhost:5000/api to see the JSON response.
+- Access the home route at http://localhost:5000/.
+- Access the API route at http://localhost:5000/api to see the JSON response.
 
 ### User Routes
 - GET /users: Retrieve all users.
@@ -45,7 +45,7 @@ Access the API route at http://localhost:5000/api to see the JSON response.
   : Delete a user by ID.
   
 ## Scripts
-Start the application:
+- Start the application:
     ```
     
     npm start
@@ -57,9 +57,9 @@ This project uses the following dependencies:
  - uuid: Library for generating unique identifiers
    
 ## Contributing
-Contributions are welcome! Please submit a pull request or open an issue to discuss changes.
+- Contributions are welcome! Please submit a pull request or open an issue to discuss changes.
 
 ## License
-This project is licensed under the ISC License - see the LICENSE file for details.
+- This project is licensed under the ISC License - see the LICENSE file for details.
 
 #### Feel free to modify any sections or add additional information as needed! If you have specific features or any other details to include, let me know!
