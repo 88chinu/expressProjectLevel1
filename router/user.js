@@ -14,7 +14,6 @@ router.get('/', (req, res) => {
 //GET /:id
 router.get('/:id', (req, res) => {
     const { id } = req.params
-
     const foundUser = users.find((user) => user.id === id)
 
     res.send(foundUser)
@@ -46,6 +45,10 @@ router.patch('/:id', (req, res) => {
     const { first_name, last_name, email} = req.body;
   
     const user = users.find((user) => user.id === id)
+    if (user.id !== id)
+    {
+      console.log("user not found")
+    }
   
     if(first_name) user.first_name = first_name;
     if(last_name) user.last_name = last_name;

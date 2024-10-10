@@ -1,8 +1,6 @@
-// const express = require("express")
 import express from 'express'
 const app = express()
 import bodyParser from 'body-parser'
-import userRouter from './router/user.js'
 import router from './router/user.js'
 
 const port = 5000
@@ -20,7 +18,7 @@ app.get("/api",(req,res) =>
 })
 
 app.use(bodyParser.json());
-app.use('/users',userRouter);
+app.use('/users',router);
 
 app.listen(port, () =>
     {
