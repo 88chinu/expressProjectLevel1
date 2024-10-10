@@ -9,25 +9,20 @@
 - User routes for creating, reading, updating, and deleting users.
 
 ## Installation
-
 1. Clone the repository:
+   ```bash
+   git clone https://github.com/88chinu/expressProjectLevel1.git
+2. Navigate into the project directory:
     ```bash
-      git clone https://github.com/88chinu/expressProjectLevel1.git
-2.Navigate into the project directory:
-    ```
-    
-      cd expressProjectLevel1
+    cd expressProjectLevel1
 
-3.Install dependencies:
-    ```
-
+3. Install dependencies:
+    ```bash
       npm install
 
-4 .Start the application:
-    ```
-      
+4. Start the application:
+    ```bash
       npm start
-      
 ## Usage
 - Access the home route at http://localhost:5000/.
 - Access the API route at http://localhost:5000/api to see the JSON response.
@@ -46,7 +41,7 @@
   
 ## Scripts
 - Start the application:
-    ```
+    ```bash
     
     npm start
 - Test: Currently, there are no tests specified.
