@@ -1,6 +1,6 @@
 # sampleExpressProject
 ## Output video of the following project
-https://github.com/88chinu/expressProjectLevel1/issues/2#issue-2579420779
+- https://github.com/88chinu/expressProjectLevel1/issues/3#issue-2579437026
 
 ## Description
 - This is an Express.js application designed for basic API development. It features a simple in-memory user management system with CRUD operations.
