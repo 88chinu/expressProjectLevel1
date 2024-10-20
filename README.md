@@ -20,7 +20,7 @@
 
 3. Install dependencies:
     ```bash
-      npm install
+      npm install express
 
 4. Start the application:
     ```bash
