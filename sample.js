@@ -19,9 +19,12 @@ app.get("/api",(req,res) =>
 })
 })
 
+//Json directory
 app.use(bodyParser.json());
+//Router directory
 app.use('/users',router);
 
+//Declear the port for the website
 app.listen(port, () =>
     {
     console.log(`Server started on port ${port}`);
