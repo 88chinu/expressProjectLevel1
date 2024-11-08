@@ -5,13 +5,12 @@ const router = express.Router();
 
 let users = [];
 
-//GET /
+//GET //Get the users
 router.get('/', (req, res) => {
     res.send(users);
 })
 
-
-//GET /:id
+//GET /:id  //Get the user by their id
 router.get('/:id', (req, res) => {
     const { id } = req.params
     const foundUser = users.find((user) => user.id === id)
@@ -19,7 +18,7 @@ router.get('/:id', (req, res) => {
     res.send(foundUser)
 })
 
-//DELET /:id
+//DELET /:id //Delete the user by id 
 router.delete('/:id', (req, res) => {
     const { id } = req.params;
   
@@ -29,7 +28,7 @@ router.delete('/:id', (req, res) => {
   });
 
 
-//POST /
+//POST //Create a user
 router.post('/', (req, res) => {
     const user = req.body;
 
@@ -38,7 +37,7 @@ router.post('/', (req, res) => {
     res.send(`${user.first_name} has been added to the Database`)
 })  
 
-//PATCH /:id
+//PATCH /:id  //Update a user by their id
 router.patch('/:id', (req, res) => {
     const { id } = req.params;
   
@@ -58,4 +57,4 @@ router.patch('/:id', (req, res) => {
   
   });
   
-export default router
+export default router;
