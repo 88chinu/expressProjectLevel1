@@ -10,11 +10,12 @@ app.get("/", (req, res) =>{
     res.send("Well-come to My Express Project")
 })
 
+//Get the API directory
 app.get("/api",(req,res) =>
 { 
     res.json(
     {
-        "message":"hello from the api"
+        "message":"Hello from the API"
 })
 })
 
