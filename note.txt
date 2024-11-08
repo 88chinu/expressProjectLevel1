@@ -1,0 +1,9 @@
+ Note file for the ExpressLevel1 :-
+  - Create a folder name expressLevel1
+  - Install NPM module - "npm init -y"
+  - Install necessary modules - "npm install express uuid"
+  - Create file name sample.js it is the server file of our project.
+  - In sample.js file we call the route methouds and define the path and api for the methods
+  - Create folder name router it helps to routes the methods
+  - create a file under router name user.js
+  - In user.js we write the codes of the CRUD method
