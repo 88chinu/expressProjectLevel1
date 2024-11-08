@@ -5,8 +5,9 @@ import router from './router/user.js'
 
 const port = 5000
 
+//Home directory
 app.get("/", (req, res) =>{
-    res.send("hello world")
+    res.send("Well-come to My Express Project")
 })
 
 app.get("/api",(req,res) =>
