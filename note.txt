@@ -11,4 +11,4 @@
   - It helps us to run the project easily
   - To run the project - "npm start"
   - Then we can see the output of the porject in the port "localhost//5000"
-  
+  - To check the CRUD method we have to use the postman or thonderclient extention.
