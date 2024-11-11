@@ -1,6 +1,4 @@
-# sampleExpressProject
-## Output video of the following project
-- https://github.com/88chinu/expressProjectLevel1/issues/3#issue-2579437026
+# SampleExpressProject
 
 ## Description
 - This is an Express.js application designed for basic API development. It features a simple in-memory user management system with CRUD operations.
@@ -47,6 +45,9 @@
     
     npm start
 - Test: Currently, there are no tests specified.
+
+## Output video of the following project
+- https://github.com/88chinu/expressProjectLevel1/issues/3#issue-2579437026
 
 ## Dependencies
 This project uses the following dependencies:
