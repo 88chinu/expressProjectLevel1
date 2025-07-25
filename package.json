@@ -1,7 +1,7 @@
 {
   "name": "express-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description - This is an Express.js application designed for basic API development. It features a simple in-memory user management system with CRUD operations.",
   "main": "sample.js",
   "http.proxySupport": "off",
   "type": "module",
@@ -16,5 +16,13 @@
     "uuid": "^10.0.0"
   },
   "devDependencies": {},
-  "keywords": []
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/88chinu/expressProjectLevel1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/88chinu/expressProjectLevel1/issues"
+  },
+  "homepage": "https://github.com/88chinu/expressProjectLevel1#readme"
 }
